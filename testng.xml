@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNg Practice">
+
+    <test name="Parameter Annotation">
+        <parameter name="" value="Techtorial"></parameter>
+        <classes>
+            <class name="TestNGPractice.ParameterPractice"></class>
+        </classes>
+    </test>
+
+</suite>
+

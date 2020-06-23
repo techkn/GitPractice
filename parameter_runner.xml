@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name ="TestNG Practice">
+    <test name = "Parameter annotation">
+        <parameter name = "fname" value = "Techtorial"></parameter>
+        <parameter name="lastName" value="Academy"></parameter>
+        <parameter name="driverName" value="chrome"></parameter>
+        <classes>
+            <class name = "JSExecuter.JSIntro"></class>
+        </classes>
+    </test>
+</suite>
